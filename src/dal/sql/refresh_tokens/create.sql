@@ -1,0 +1,1 @@
+SELECT * FROM sp_create_refresh_token(:user_id, :session_id, :expires_at);

@@ -1,0 +1,1 @@
+SELECT * FROM sp_create_user(:email, :password, :role);
