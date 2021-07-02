@@ -3,7 +3,7 @@
 
   
 
-The Imprimo API is the backend framework to manage the REST API endpoints, controllers, business services and database models so that a client app can be authenticated/authorized to gain access to the resources that are compliant to a certain set of access rules.
+The Node API is the backend framework to manage the REST API endpoints, controllers, business services and database models so that a client app can be authenticated/authorized to gain access to the resources that are compliant to a certain set of access rules.
   
 
 # Setup

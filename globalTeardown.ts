@@ -11,7 +11,7 @@ export async function dropMockDatabase(database: string): Promise<void> {
     const c = config.DB_CONNECTION;
     c.connection.database = undefined;
     const db = knex(c);
-    await db.raw(`DROP DATABASE test_imprimo_${database}`);
+    await db.raw(`DROP DATABASE test_${database}`);
 }
 
 module.exports = async () => {
